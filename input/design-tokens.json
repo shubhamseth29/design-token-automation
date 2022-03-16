@@ -1,3 +1,54 @@
 {
-  "global": {}
+  "global": {
+    "gradient": {
+      "button border gradient": {
+        "description": "",
+        "type": "custom-gradient",
+        "value": {
+          "gradientType": "linear",
+          "rotation": 180,
+          "stops": [
+            {
+              "position": 0.86,
+              "color": "#babfc3ff"
+            },
+            {
+              "position": 1,
+              "color": "#bbbfc3ff"
+            }
+          ]
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:7fe2afd2d39a6a0b80d6990f533dca5d30ebfe56,",
+            "exportKey": "gradient"
+          }
+        }
+      },
+      "text input border": {
+        "description": "",
+        "type": "custom-gradient",
+        "value": {
+          "gradientType": "linear",
+          "rotation": 180,
+          "stops": [
+            {
+              "position": 0,
+              "color": "#a7acb1ff"
+            },
+            {
+              "position": 0.1,
+              "color": "#babfc3ff"
+            }
+          ]
+        },
+        "extensions": {
+          "org.lukasoppermann.figmaDesignTokens": {
+            "styleId": "S:d3c983ed8ab756c1d58546c6e1823f18c379742e,",
+            "exportKey": "gradient"
+          }
+        }
+      }
+    }
+  }
 }
