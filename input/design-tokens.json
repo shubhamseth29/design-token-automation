@@ -6,17 +6,7 @@
         "type": "custom-gradient",
         "value": {
           "gradientType": "linear",
-          "rotation": 180,
-          "stops": [
-            {
-              "position": 0.86,
-              "color": "#babfc3ff"
-            },
-            {
-              "position": 1,
-              "color": "#bbbfc3ff"
-            }
-          ]
+          "rotation": 180
         },
         "extensions": {
           "org.lukasoppermann.figmaDesignTokens": {
