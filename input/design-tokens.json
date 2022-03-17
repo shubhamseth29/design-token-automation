@@ -2,16 +2,20 @@
   "global": {
     "gradient": {
       "button border gradient": {
-        "description": "",
-        "type": "custom-gradient",
-        "value": {
-          "gradientType": "linear",
-          "rotation": 180
-        },
         "extensions": {
-          "org.lukasoppermann.figmaDesignTokens": {
-            "styleId": "S:7fe2afd2d39a6a0b80d6990f533dca5d30ebfe56,",
-            "exportKey": "gradient"
+          "org": {
+            "lukasoppermann": {
+              "figmaDesignTokens": {
+                "styleId": {
+                  "value": "S:7fe2afd2d39a6a0b80d6990f533dca5d30ebfe56,",
+                  "type": "other"
+                },
+                "exportKey": {
+                  "value": "gradient",
+                  "type": "other"
+                }
+              }
+            }
           }
         }
       },
@@ -39,6 +43,10 @@
           }
         }
       }
+    },
+    "button-xl": {
+      "value": "20",
+      "type": "sizing"
     }
   }
 }
